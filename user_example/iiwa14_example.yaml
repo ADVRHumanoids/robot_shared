@@ -1,10 +1,10 @@
 XBotCore:
-  config_path: "configs/ADVR_shared/iiwa14/configs/kuka.yaml"
+  config_path: "configs/robot_shared/iiwa14/configs/kuka.yaml"
 
 XBotInterface:
-  urdf_path: "configs/ADVR_shared/iiwa14/urdf/kuka.urdf"
-  srdf_path: "configs/ADVR_shared/iiwa14/srdf/kuka.srdf"
-  joint_map_path: "configs/ADVR_shared/iiwa14/joint_map/kuka_joint_map.yaml"
+  urdf_path: "configs/robot_shared/iiwa14/urdf/kuka.urdf"
+  srdf_path: "configs/robot_shared/iiwa14/srdf/kuka.srdf"
+  joint_map_path: "configs/robot_shared/iiwa14/joint_map/kuka_joint_map.yaml"
 
 RobotInterface:
   framework_name: "ROS"
